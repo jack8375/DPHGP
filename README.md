@@ -1,4 +1,4 @@
-The document provides the source code and its compiled .java files, a library package for ontology parsing and matching, the compiled similarity matrix, and the WordNet tool.
+The document provides the source code, a library package for ontology parsing and matching, the precomputed similarity matrix, and the WordNet tool.
 ## 1.Environment Configuration
 This project is running on IntelliJ IDEA, with the SDK version set to JDK 1.8 (Java 8), and the SDK language configured as SDK default (8).
 ## 2.Parameter configuration
