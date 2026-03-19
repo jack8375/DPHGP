@@ -40,10 +40,10 @@ public class Main1 {
             double rates = 0.1;                                            //锦标赛选择率
             double ratec = 0.8;                                            //交叉率
             double ratem = 0.1;                                            //变异率
-            int MaxGen = 100;                                             //最大迭代次数
+            int MaxGen = 2000;                                             //最大迭代次数
             double probt = 0.6;                                            //生成叶子节点的概率
-            int DecisionForestSize = 5;                                    //决策林的规模
-            double st = 0.05;                                              //CGA的步长
+            int DecisionForestSize = 5;                                    //精英决策树的规模
+            double st = 0.04;                                              //CGA的步长
             //初始化部分
             ArrayList<TreeNode> Pdt = new ArrayList<>();                       //创建一个存放DT种群的数组
             ArrayList<TreeNode1> Pen = new ArrayList<>();
